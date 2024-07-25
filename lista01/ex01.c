@@ -6,7 +6,7 @@ int main(){
     float valor_kw, valor_consumo, valor_com_desconto;
 
     printf("Digite o valor do salário mínimo: ");
-    scanf("%f/n ", &salario_minimo);
+    scanf("%f", &salario_minimo);
     printf("Digite a quantidade a quantidade de KW gasta por uma residencia ");
     scanf("%f", &quantidade_kw);
 
