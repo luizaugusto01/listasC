@@ -3,13 +3,13 @@
 
 int main() {
     double L1, L2, L3;
-    printf("Digite os comprimentos dos trÃªs lados do triÃ¢ngulo:\n");
+    printf("Digite os comprimentos dos três lados do triângulo:\n");
     scanf("%lf %lf %lf", &L1, &L2, &L3);
 
-    // CÃ¡lculo do semiperÃ­metro
+    // Cálculo do semiperímetro
     double T = (L1 + L2 + L3) / 2;
 
-    // CÃ¡lculo da Ã¡rea
+      // Cálculo da área
     double area = sqrt(T * (T - L1) * (T - L2) * (T - L3));
 
     printf("A AREA DO TRIANGULO E = %.2lf\n", area);
